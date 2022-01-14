@@ -42,6 +42,18 @@ body {
     top: 3px;
 }
 
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 3px solid #FF008E;
+    margin: 50px 0;
+    text-transform: uppercase;
+}
+
 /* Navigation Bar */
 
 header {
@@ -110,4 +122,42 @@ nav {
 
 .banner-right img {
     width: 100%;
+}
+
+/* Feature */
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-icon {
+    background-color: #FF008E;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px;
+    color: #fff;
+}
+
+.card h3 {
+    color: #FF008E;
+    font-size: 25px;
+}
+
+.card p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.card a {
+    color: #FF008E;
+    text-decoration: none;
 }
